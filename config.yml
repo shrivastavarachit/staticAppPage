@@ -143,12 +143,12 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: Offices
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
+    - name: Office
+      description: Office-related services and infrastructure.
+    - name: Cloud
+      description: Cloud infrastructure and services.
+    - name: URLs
+      description: Website URLs and web services.
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -159,19 +159,19 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Offices
-      category: Offices
+      category: Office
     - name: Backup Gateway
-      category: Offices
+      category: Office
     - name: URL/Websites
       description: The web frontend for the application.
-      category: Uncategorized
+      category: URLs
       link: https://example.com/
     - name: Cloud Infra
       description: The guts of the application.
-      category: Uncategorized
+      category: Cloud
     - name: Media Proxy
       description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+      category: Cloud
 
   # What date format to use?
   #
